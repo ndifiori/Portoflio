@@ -32,7 +32,7 @@
   align-items: center;
   font-size: var(--small-font-size);
   color: var(--title-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
   transition: .3s
 }
 
@@ -47,6 +47,11 @@
   color: var(--title-color-dark);
 } 
 
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* BREAKPOINTS */
 /* for medium devices */
 @media screen and (max-width: 768px) {
   .header {
@@ -60,7 +65,7 @@
 
   .nav__menu {
     position: fixed;
-    bottom: 0;
+    bottom: -100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -68,6 +73,11 @@
     box-shadow: 0 -1px 4px rgba(0,0,0,.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s
+  }
+
+  /* show menu */
+  .show-menu {
+    bottom: 0;
   }
 
   .nav__list {
@@ -93,9 +103,24 @@
     color: var(--title-color-dark);
   }
 
+  .nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
   .nav__icon,
   .nav__close,
   .nav__toggle {
     display: block;
   }
+}
+
+/* for small devices */
+@media screen and (max-width: 350px) {
+  .nav__menu {
+    padding: 2rem 0.25rem 4rem;
+  }
+
+  
+
 }
