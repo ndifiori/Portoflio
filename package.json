@@ -1,6 +1,7 @@
 {
   "name": "nathandifiori",
   "version": "0.1.0",
+  "homepage": "https://ndifiori.github.io/Portoflio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
