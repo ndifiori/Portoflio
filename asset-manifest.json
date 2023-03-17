@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portoflio/static/css/main.a4723e4a.css",
+    "main.js": "/Portoflio/static/js/main.fc2f0b83.js",
+    "static/media/about.jpg": "/Portoflio/static/media/about.6a785815ffc2f2773876.jpg",
+    "static/media/profile.jpg": "/Portoflio/static/media/profile.6a785815ffc2f2773876.jpg",
+    "static/media/Difiori-Resume.pdf": "/Portoflio/static/media/Difiori-Resume.8bcc7b0ffe3f1e67e7a4.pdf",
+    "index.html": "/Portoflio/index.html",
+    "main.a4723e4a.css.map": "/Portoflio/static/css/main.a4723e4a.css.map",
+    "main.fc2f0b83.js.map": "/Portoflio/static/js/main.fc2f0b83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4723e4a.css",
+    "static/js/main.fc2f0b83.js"
+  ]
+}
